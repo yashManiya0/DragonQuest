@@ -59,7 +59,7 @@ body {
     background-size: cover;
     height: 400px;
     width: 500px;
-    background-image: url(./dragons/stormcutter/stormcutter1.png);
+    background-image: url(./images/stormcutter1.png);
 }
 
 #img2 {
@@ -67,7 +67,7 @@ body {
     background-size: cover;
     height: 400px;
     width: 300px;
-    background-image: url(./dragons/stormcutter/stormcutter3.jpg);
+    background-image: url(./images/stormcutter3.jpg);
 }
 
 #img3 {
@@ -75,7 +75,7 @@ body {
     background-size: cover;
     height: 400px;
     width: 500px;
-    background-image: url(./dragons/stormcutter/stormcutter2.png);
+    background-image: url(./images/stormcutter2.png);
 }
 
 .btn {
