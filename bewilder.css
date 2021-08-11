@@ -58,7 +58,7 @@ body {
     background-size: cover;
     height: 400px;
     width: 450px;
-    background-image: url(./dragons/bewilderbeast/bewilder3.jpg);
+    background-image: url(./images/bewilder3.jpg);
 }
 
 #img2 {
@@ -66,7 +66,7 @@ body {
     background-size: cover;
     height: 400px;
     width: 400px;
-    background-image: url(./dragons/bewilderbeast/bewilder2.jpg);
+    background-image: url(./images/bewilder2.jpg);
 }
 
 #img3 {
@@ -74,7 +74,7 @@ body {
     background-size: cover;
     height: 400px;
     width: 450px;
-    background-image: url(./dragons/bewilderbeast/bewilder1.jpg);
+    background-image: url(./images/bewilder1.jpg);
 }
 
 .btn {
