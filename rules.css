@@ -1,0 +1,80 @@
+* {
+    transition: 0.1s ease;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+#container {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(questions-background.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+#rules-head {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    border-radius: 7px;
+    top: 8vh;
+    left: 42vw;
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Rubik', sans-serif;
+}
+
+table {
+    background-color: rgba(0, 0, 6, 0.5);
+    position: absolute;
+    top: 22vh;
+    left: 11vw;
+    border-radius: 10px;
+}
+
+td {
+    text-align: left;
+    font-size: 1.7em;
+    height: 100px;
+    width: 500px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+#to-test {
+    position: absolute;
+    background: rgb(1, 196, 255);
+    color: black;
+    border: 0px solid black;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 7px;
+    right: 15vw;
+    bottom: 13vh;
+    height: auto;
+    width: auto;
+    padding: 13px 20px;
+    font-size: 2em;
+}
+
+#to-test:hover {
+    text-decoration: underline;
+}
+
+table div {
+    display: inline-block;
+}
+
+table i {
+    font-size: 2.4em;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+table div.rules {
+    margin-left: 25px;
+}

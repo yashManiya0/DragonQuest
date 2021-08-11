@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spirit Dragon</title>
+    <link rel="stylesheet" type="text/css" href="questions.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/835659b791.js" crossorigin="anonymous"></script>
+</head>
+
+<body onload="timer1()">
+    <div id="container">
+
+
+        <div class="question-box-1">
+            <div class="qb-head">
+                <div class="qb-title">Dragon Quest Quiz</div>
+                <div class="qb-timer">
+                    <div class="time-str">Time Left</div>
+                    <div class="time-int">20</div>
+                </div>
+            </div>
+            <div class="qb-content">
+                <div class="qb-question"> Q1. Select one egg that you think you would like to hatch :</div>
+                <div class="qb-options">
+                    <div class="option1 option1-1" onclick="select('option1-1')">
+                        <div class="egg1"></div>
+                    </div>
+                    <div class="option1 option1-2" onclick="select('option1-2')">
+                        <div class="egg2"></div>
+                    </div>
+                    <div class="option1 option1-3" onclick="select('option1-3')">
+                        <div class="egg3"></div>
+                    </div>
+                    <div class="option1 option1-4" onclick="select('option1-4')">
+                        <div class="egg4"></div>
+                    </div>
+                    <div class="option1 option1-5" onclick="select('option1-5')">
+                        <div class="egg5"></div>
+                    </div>
+                    <div class="option1 option1-6" onclick="select('option1-6')">
+                        <div class="egg6"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="qb-footer">
+                <div class="qb-counter">
+                    <p id="currentQ">1</p>
+                    <p>of</p>
+                    <p>7 Questions</p>
+                </div>
+                <div class="qb-buttons">
+                    <a href="rules.html" class="prev-rules">Rules</a>
+                    <a href="#" class="next-2" onclick="next_2()">Next</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="question-box-2">
+            <div class="qb-head">
+                <div class="qb-title">Dragon Quest Quiz</div>
+                <div class="qb-timer">
+                    <div class="time-str">Time Left</div>
+                    <div class="time-int">20</div>
+                </div>
+            </div>
+            <div class="qb-content">
+                <div class="qb-question"> Q2. Select a habitat that you think your dragon would comfortable in :</div>
+                <div class="qb-options">
+                    <div class="option2 option2-1" onclick="select('option2-1')">
+                        <div class="habitat1"></div>
+                    </div>
+                    <div class="option2 option2-2" onclick="select('option2-2')">
+                        <div class="habitat2"></div>
+                    </div>
+                    <div class="option2 option2-3" onclick="select('option2-3')">
+                        <div class="habitat3"></div>
+                    </div>
+                    <div class="option2 option2-4" onclick="select('option2-4')">
+                        <div class="habitat4"></div>
+                    </div>
+                    <div class="option2 option2-5" onclick="select('option2-5')">
+                        <div class="habitat5"></div>
+                    </div>
+                    <div class="option2 option2-6" onclick="select('option2-6')">
+                        <div class="habitat6"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="qb-footer">
+                <div class="qb-counter">
+                    <p id="currentQ">2</p>
+                    <p>of</p>
+                    <p>7 Questions</p>
+                </div>
+                <div class="qb-buttons">
+                    <a href="#" class="prev-1" onclick="prev_1()">Previous</a>
+                    <a href="#" class="next-3" onclick="next_3()">Next</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="question-box-3">
+            <div class="qb-head">
+                <div class="qb-title">Dragon Quest Quiz</div>
+                <div class="qb-timer">
+                    <div class="time-str">Time Left</div>
+                    <div class="time-int">20</div>
+                </div>
+            </div>
+            <div class="qb-content">
+                <div class="qb-question"> Q3. Select which type of food would you like to eat :</div>
+                <div class="qb-options">
+                    <div class="option3 option3-1" onclick="select('option3-1')">
+                        <div class="food1"></div>
+                    </div>
+                    <div class="option3 option3-2" onclick="select('option3-2')">
+                        <div class="food2"></div>
+                    </div>
+                    <div class="option3 option3-3" onclick="select('option3-3')">
+                        <div class="food3"></div>
+                    </div>
+                    <div class="option3 option3-4" onclick="select('option3-4')">
+                        <div class="food4"></div>
+                    </div>
+                    <div class="option3 option3-5" onclick="select('option3-5')">
+                        <div class="food5"></div>
+                    </div>
+                    <div class="option3 option3-6" onclick="select('option3-6')">
+                        <div class="food6"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="qb-footer">
+                <div class="qb-counter">
+                    <p id="currentQ">3</p>
+                    <p>of</p>
+                    <p>7 Questions</p>
+                </div>
+                <div class="qb-buttons">
+                    <a href="#" class="prev-2" onclick="prev_2()">Previous</a>
+                    <a href="#" class="next-4 " onclick="next_4() ">Next</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="question-box-4 ">
+            <div class="qb-head ">
+                <div class="qb-title ">Dragon Quest Quiz</div>
+                <div class="qb-timer ">
+                    <div class="time-str ">Time Left</div>
+                    <div class="time-int ">20</div>
+                </div>
+            </div>
+            <div class="qb-content ">
+                <div class="qb-question "> Q4. From the given gradients below, which one do you like ?</div>
+                <div class="qb-options ">
+                    <div class="option4 option4-1" onclick="select('option4-1')">
+                        <div class="grad1 "></div>
+                    </div>
+                    <div class="option4 option4-2" onclick="select('option4-2')">
+                        <div class="grad2 "></div>
+                    </div>
+                    <div class="option4 option4-3" onclick="select('option4-3')">
+                        <div class="grad3 "></div>
+                    </div>
+                    <div class="option4 option4-4" onclick="select('option4-4')">
+                        <div class="grad4 "></div>
+                    </div>
+                    <div class="option4 option4-5" onclick="select('option4-5')">
+                        <div class="grad5 "></div>
+                    </div>
+                    <div class="option4 option4-6" onclick="select('option4-6')">
+                        <div class="grad6 "></div>
+                    </div>
+                </div>
+            </div>
+            <div class="qb-footer ">
+                <div class="qb-counter ">
+                    <p id="currentQ ">4</p>
+                    <p>of</p>
+                    <p>7 Questions</p>
+                </div>
+                <div class="qb-buttons ">
+                    <a href="# " class="prev-3 " onclick="prev_3() ">Previous</a>
+                    <a href="# " class="next-5 " onclick="next_5() ">Next</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="question-box-5 ">
+            <div class="qb-head ">
+                <div class="qb-title ">Dragon Quest Quiz</div>
+                <div class="qb-timer ">
+                    <div class="time-str ">Time Left</div>
+                    <div class="time-int ">20</div>
+                </div>
+            </div>
+            <div class="qb-content ">
+                <div class="qb-question "> Q5. Which ability do you think is most important to you ?</div>
+                <div class="qb-options ">
+                    <div class="option5 option5-1" onclick="select('option5-1')">
+                        <div class="abil1 ">Stay Hidden</div>
+                    </div>
+                    <div class="option5 option5-2" onclick="select('option5-2')">
+                        <div class="abil2 ">Roam Freely</div>
+                    </div>
+                    <div class="option5 option5-3" onclick="select('option5-3')">
+                        <div class="abil3 ">Stength</div>
+                    </div>
+                    <div class="option5 option5-4" onclick="select('option5-4')">
+                        <div class="abil4 ">Smart Brain</div>
+                    </div>
+                    <div class="option5 option5-5" onclick="select('option5-5')">
+                        <div class="abil5 ">Anger</div>
+                    </div>
+                    <div class="option5 option5-6" onclick="select('option5-6')">
+                        <div class="abil6 ">Be Pure</div>
+                    </div>
+                </div>
+            </div>
+            <div class="qb-footer ">
+                <div class="qb-counter ">
+                    <p id="currentQ ">5</p>
+                    <p>of</p>
+                    <p>7 Questions</p>
+                </div>
+                <div class="qb-buttons ">
+                    <a href="# " class="prev-4" onclick="prev_4() ">Previous</a>
+                    <a href="# " class="next-6" onclick="next_6() ">Next</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="question-box-6 ">
+            <div class="qb-head ">
+                <div class="qb-title ">Dragon Quest Quiz</div>
+                <div class="qb-timer ">
+                    <div class="time-str ">Time Left</div>
+                    <div class="time-int ">20</div>
+                </div>
+            </div>
+            <div class="qb-content ">
+                <div class="qb-question "> Q6. Select the biggest fear to you :</div>
+                <div class="qb-options ">
+                    <div class="option6 option6-1" onclick="select('option6-1')">
+                        <div class="fear1 ">Height</div>
+                    </div>
+                    <div class="option6 option6-2" onclick="select('option6-2')">
+                        <div class="fear2 ">Loneliness</div>
+                    </div>
+                    <div class="option6 option6-3" onclick="select('option6-3')">
+                        <div class="fear3 ">Gathering</div>
+                    </div>
+                    <div class="option6 option6-4" onclick="select('option6-4')">
+                        <div class="fear4 ">No Fears</div>
+                    </div>
+                    <div class="option6 option6-5" onclick="select('option6-5')">
+                        <div class="fear5 ">Speak Truth</div>
+                    </div>
+                    <div class="option6 option6-6" onclick="select('option6-6')">
+                        <div class="fear6 ">Water</div>
+                    </div>
+                </div>
+            </div>
+            <div class="qb-footer ">
+                <div class="qb-counter ">
+                    <p id="currentQ ">6</p>
+                    <p>of</p>
+                    <p>7 Questions</p>
+                </div>
+                <div class="qb-buttons ">
+                    <a href="# " class="prev-5 " onclick="prev_5() ">Previous</a>
+                    <a href="# " class="next-7 " onclick="next_7() ">Next</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="question-box-7 ">
+            <div class="qb-head ">
+                <div class="qb-title ">Dragon Quest Quiz</div>
+                <div class="qb-timer ">
+                    <div class="time-str ">Time Left</div>
+                    <div class="time-int ">20</div>
+                </div>
+            </div>
+            <div class="qb-content ">
+                <div class="qb-question "> Q7. What is the best quality to have, according to you ?</div>
+                <div class="qb-options ">
+                    <div class="option7 option7-1" onclick="select('option7-1')">
+                        <div class="qual1 ">Strength</div>
+                    </div>
+                    <div class="option7 option7-2" onclick="select('option7-2')">
+                        <div class="qual2 ">Control</div>
+                    </div>
+                    <div class="option7 option7-3" onclick="select('option7-3')">
+                        <div class="qual3 ">Freedom</div>
+                    </div>
+                    <div class="option7 option7-4" onclick="select('option7-4')">
+                        <div class="qual4 ">Humor</div>
+                    </div>
+                    <div class="option7 option7-5" onclick="select('option7-5')">
+                        <div class="qual5 ">Hard Work</div>
+                    </div>
+                    <div class="option7 option7-6" onclick="select('option7-6')">
+                        <div class="qual6 ">Loyalty</div>
+                    </div>
+                </div>
+            </div>
+            <div class="qb-footer ">
+                <div class="qb-counter ">
+                    <p id="currentQ ">7</p>
+                    <p>of</p>
+                    <p>7 Questions</p>
+                </div>
+                <div class="qb-buttons ">
+                    <a href="# " class="prev-6 " onclick="prev_6() ">Previous</a>
+                    <a href="# " class="next-submit " onclick="submit()">Submit</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="results">
+
+        </div>
+
+
+    </div>
+
+    <script src="script.js "></script>
+</body>
+
+</html>

@@ -1,0 +1,651 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Arima Madurai', cursive;
+    color: white;
+}
+
+#container {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(questions-background.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.question-box-1 {
+    position: absolute;
+    visibility: visible;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 7px;
+    top: 45%;
+    left: 50%;
+    height: 500px;
+    width: 1400px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Arima Madurai', cursive;
+}
+
+.question-box-2 {
+    position: absolute;
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 7px;
+    top: 45%;
+    left: 50%;
+    height: 500px;
+    width: 1400px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Arima Madurai', cursive;
+}
+
+.question-box-3 {
+    position: absolute;
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 7px;
+    top: 45%;
+    left: 50%;
+    height: 500px;
+    width: 1400px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Arima Madurai', cursive;
+}
+
+.question-box-4 {
+    position: absolute;
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 7px;
+    top: 45%;
+    left: 50%;
+    height: 500px;
+    width: 1400px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Arima Madurai', cursive;
+}
+
+.question-box-5 {
+    position: absolute;
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 7px;
+    top: 45%;
+    left: 50%;
+    height: 500px;
+    width: 1400px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Arima Madurai', cursive;
+}
+
+.question-box-6 {
+    position: absolute;
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 7px;
+    top: 45%;
+    left: 50%;
+    height: 500px;
+    width: 1400px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Arima Madurai', cursive;
+}
+
+.question-box-7 {
+    position: absolute;
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 7px;
+    top: 45%;
+    left: 50%;
+    height: 500px;
+    width: 1400px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Arima Madurai', cursive;
+}
+
+.qb-head {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+
+.qb-timer {
+    display: flex;
+    justify-content: space-between;
+    margin: 3px 40px;
+    padding-left: 20px;
+    padding-right: 10px;
+    border: 1.5px solid white;
+    border-radius: 6px;
+}
+
+.qb-title {
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 1.4em;
+}
+
+.time-str {
+    padding-top: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.time-int {
+    margin: 10px;
+    padding: 3px 10px;
+    background-color: rgba(104, 255, 255, 1);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    color: black;
+    border: 1.5px solid white;
+    border-radius: 5px;
+}
+
+.qb-footer {
+    border-top: 2px solid white;
+    position: relative;
+    padding: 23px 20px;
+    display: flex;
+    align-content: space-between;
+}
+
+.qb-counter {
+    display: flex;
+    align-content: space-between;
+}
+
+.qb-counter p {
+    padding: 0 4px;
+}
+
+.qb-buttons {
+    position: absolute;
+    display: flex;
+    align-content: space-between;
+    margin-top: -7px;
+    right: 15px;
+    width: 260px;
+}
+
+.qb-buttons a {
+    position: static;
+    background: rgb(1, 196, 255);
+    color: black;
+    border: 0px solid black;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    border-radius: 7px;
+    height: auto;
+    width: auto;
+    padding: 13px 20px;
+    margin-right: 20px;
+    font-size: 1em;
+}
+
+.qb-buttons a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.qb-content {
+    padding: 20px 40px;
+    padding: 20px 30px;
+    height: 300px;
+}
+
+.qb-question {
+    text-align: left;
+    font-size: 1.2em;
+    height: auto;
+    padding: 10px;
+}
+
+.qb-options {
+    display: flex;
+    align-content: space-between;
+    margin-top: 15px;
+}
+
+.option1,
+.option2,
+.option3,
+.option4,
+.option5,
+.option6,
+.option7 {
+    margin-right: 30px;
+    display: flex;
+    align-content: center;
+    justify-items: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.option:last-child {
+    margin-right: 0;
+}
+
+.option1 div,
+.option2 div,
+.option3 div,
+.option4 div,
+.option5 div,
+.option6 div,
+.option7 div {
+    height: 90%;
+    width: 90%;
+}
+
+.egg1 {
+    margin: 10px;
+    background-size: cover;
+    background-position: center left -60px;
+    background-image: url(./eggs/aura-egg.png);
+}
+
+.egg2 {
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./eggs/earth-egg.png);
+}
+
+.egg3 {
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./eggs/ice-egg.png);
+}
+
+.egg4 {
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./eggs/lava-egg.png);
+}
+
+.egg5 {
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./eggs/spike-egg.jpg);
+}
+
+.egg6 {
+    margin: 10px;
+    background-size: cover;
+    background-position: center right -65px;
+    background-image: url(./eggs/water-egg.png);
+}
+
+.habitat1 {
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./habitats/ice-habitat.jpg);
+}
+
+.habitat2 {
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./habitats/desert-habitat.jpg);
+}
+
+.habitat3 {
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./habitats/cavern-habitat.jpg);
+}
+
+.habitat4 {
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./habitats/earth-habitat.jpg);
+}
+
+.habitat5 {
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./habitats/air-habitat.jpg);
+}
+
+.habitat6 {
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./habitats/lava-habitat.jpg);
+}
+
+.food1 {
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./food/icecream-food.jpg);
+}
+
+.food2 {
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./food/chillies-food.jpg);
+}
+
+.food3 {
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./food/icy-food.jpg);
+}
+
+.food4 {
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./food/hot-food.jpg);
+}
+
+.food5 {
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./food/dark-food.jpg);
+}
+
+.food6 {
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./food/veggies-food.jpg);
+}
+
+.grad1 {
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./grads/images.jpg);
+}
+
+.grad2 {
+    margin: 10px;
+    background-image: linear-gradient(rgb(30, 255, 180), rgb(30, 255, 49));
+}
+
+.grad3 {
+    margin: 10px;
+    background-image: linear-gradient(rgb(255, 30, 225), rgb(255, 30, 60));
+}
+
+.grad4 {
+    margin: 10px;
+    background-image: linear-gradient( rgb(209, 248, 255), rgb(30, 191, 255));
+}
+
+.grad5 {
+    margin: 10px;
+    background-image: linear-gradient(rgb(255, 30, 30), rgb(255, 195, 30));
+}
+
+.grad6 {
+    margin: 10px;
+    background-image: linear-gradient(rgb(45, 30, 255), rgb(30, 203, 255));
+}
+
+.abil1 {
+    font-size: 2em;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin: 40px 20px;
+}
+
+.option5-1:hover .abil1 {
+    visibility: hidden;
+}
+
+.abil2 {
+    font-size: 2em;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin: 40px 20px;
+}
+
+.abil3 {
+    font-size: 2em;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin: 65px 15px;
+}
+
+.abil4 {
+    font-size: 2em;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin: 40px 20px;
+}
+
+.abil5 {
+    font-size: 2em;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin: 65px 37px;
+}
+
+.abil6 {
+    font-size: 2em;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin: 40px 20px;
+}
+
+.fear1 {
+    font-size: 1.5em;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin: 75px 40px;
+}
+
+.option6-1:hover {
+    background-size: cover;
+    background-position: center;
+    background-image: url(./fears/height-fears.jpg);
+}
+
+.fear2 {
+    font-size: 1.5em;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin: 75px 13px;
+}
+
+.option6-2:hover {
+    background-size: cover;
+    background-position: center;
+    background-image: url(./fears/lonely-fears.jpg);
+}
+
+.fear3 {
+    font-size: 1.5em;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin: 75px 18px;
+}
+
+.option6-3:hover {
+    background-size: cover;
+    background-position: center;
+    background-image: url(./fears/gathering-fear.jpg);
+}
+
+.fear4 {
+    font-size: 1.5em;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin: 60px 40px;
+}
+
+.option6-4:hover {
+    background-size: cover;
+    background-position: center;
+    background-image: url(./fears/nofears.jpg);
+}
+
+.fear5 {
+    font-size: 1.5em;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin: 60px 38px;
+}
+
+.option6-5:hover {
+    background-size: cover;
+    background-position: center;
+    background-image: url(./fears/truth-fears.jpg);
+}
+
+.fear6 {
+    font-size: 1.5em;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin: 75px 50px;
+}
+
+.option6-6:hover {
+    background-size: cover;
+    background-position: center;
+    background-image: url(./fears/water-fears.jpg);
+}
+
+.option6-1:hover .fear1,
+.option6-2:hover .fear2,
+.option6-3:hover .fear3,
+.option6-4:hover .fear4,
+.option6-5:hover .fear5,
+.option6-6:hover .fear6 {
+    color: rgba(0, 0, 0, 0);
+}
+
+.qual1 {
+    font-size: 1.5em;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin: 75px 40px;
+}
+
+.option7-1:hover {
+    background-size: cover;
+    background-position: center;
+    background-image: url(./quals/strength-qual.jpg);
+}
+
+.qual2 {
+    font-size: 1.5em;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin: 75px 37px;
+}
+
+.option7-2:hover {
+    background-size: cover;
+    background-position: center;
+    background-image: url(./quals/mani-qual.png);
+}
+
+.qual3 {
+    font-size: 1.5em;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin: 75px 18px;
+}
+
+.option7-3:hover {
+    background-size: cover;
+    background-position: center;
+    background-image: url(./quals/free-qual.png);
+}
+
+.qual4 {
+    font-size: 1.5em;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin: 75px 40px;
+}
+
+.option7-4:hover {
+    background-size: cover;
+    background-position: center;
+    background-image: url(./quals/humour-qual.png);
+}
+
+.qual5 {
+    font-size: 1.5em;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin: 60px 38px;
+}
+
+.option7-5:hover {
+    background-size: cover;
+    background-position: center;
+    background-image: url(./quals/work-qual.jpg);
+}
+
+.qual6 {
+    font-size: 1.5em;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin: 75px 40px;
+}
+
+.option7-6:hover {
+    background-size: cover;
+    background-position: center;
+    background-image: url(./quals/loyal-qual.png);
+}
+
+.option7-1:hover .qual1,
+.option7-2:hover .qual2,
+.option7-3:hover .qual3,
+.option7-4:hover .qual4,
+.option7-5:hover .qual5,
+.option7-6:hover .qual6 {
+    color: rgba(0, 0, 0, 0);
+}
+
+.option1:hover,
+.option2:hover,
+.option3:hover,
+.option4:hover,
+.option5:hover,
+.option6:hover,
+.option7:hover {
+    border: 1.5px solid white;
+}
