@@ -266,133 +266,133 @@
     margin: 10px;
     background-size: cover;
     background-position: center left -60px;
-    background-image: url(./eggs/aura-egg.png);
+    background-image: url(./images/aura-egg.png);
 }
 
 .egg2 {
     margin: 10px;
     background-size: cover;
     background-position: center;
-    background-image: url(./eggs/earth-egg.png);
+    background-image: url(./images/earth-egg.png);
 }
 
 .egg3 {
     margin: 10px;
     background-size: cover;
     background-position: center;
-    background-image: url(./eggs/ice-egg.png);
+    background-image: url(./images/ice-egg.png);
 }
 
 .egg4 {
     margin: 10px;
     background-size: cover;
     background-position: center;
-    background-image: url(./eggs/lava-egg.png);
+    background-image: url(./images/lava-egg.png);
 }
 
 .egg5 {
     margin: 10px;
     background-size: cover;
     background-position: center;
-    background-image: url(./eggs/spike-egg.jpg);
+    background-image: url(./images/spike-egg.jpg);
 }
 
 .egg6 {
     margin: 10px;
     background-size: cover;
     background-position: center right -65px;
-    background-image: url(./eggs/water-egg.png);
+    background-image: url(./images/water-egg.png);
 }
 
 .habitat1 {
     margin: 10px;
     background-size: cover;
     background-position: center;
-    background-image: url(./habitats/ice-habitat.jpg);
+    background-image: url(./images/ice-habitat.jpg);
 }
 
 .habitat2 {
     margin: 10px;
     background-size: cover;
     background-position: center;
-    background-image: url(./habitats/desert-habitat.jpg);
+    background-image: url(./images/desert-habitat.jpg);
 }
 
 .habitat3 {
     margin: 10px;
     background-size: cover;
     background-position: center;
-    background-image: url(./habitats/cavern-habitat.jpg);
+    background-image: url(./images/cavern-habitat.jpg);
 }
 
 .habitat4 {
     margin: 10px;
     background-size: cover;
     background-position: center;
-    background-image: url(./habitats/earth-habitat.jpg);
+    background-image: url(./images/earth-habitat.jpg);
 }
 
 .habitat5 {
     margin: 10px;
     background-size: cover;
     background-position: center;
-    background-image: url(./habitats/air-habitat.jpg);
+    background-image: url(./images/air-habitat.jpg);
 }
 
 .habitat6 {
     margin: 10px;
     background-size: cover;
     background-position: center;
-    background-image: url(./habitats/lava-habitat.jpg);
+    background-image: url(./images/lava-habitat.jpg);
 }
 
 .food1 {
     margin: 10px;
     background-size: cover;
     background-position: center;
-    background-image: url(./food/icecream-food.jpg);
+    background-image: url(./images/icecream-food.jpg);
 }
 
 .food2 {
     margin: 10px;
     background-size: cover;
     background-position: center;
-    background-image: url(./food/chillies-food.jpg);
+    background-image: url(./images/chillies-food.jpg);
 }
 
 .food3 {
     margin: 10px;
     background-size: cover;
     background-position: center;
-    background-image: url(./food/icy-food.jpg);
+    background-image: url(./images/icy-food.jpg);
 }
 
 .food4 {
     margin: 10px;
     background-size: cover;
     background-position: center;
-    background-image: url(./food/hot-food.jpg);
+    background-image: url(./images/hot-food.jpg);
 }
 
 .food5 {
     margin: 10px;
     background-size: cover;
     background-position: center;
-    background-image: url(./food/dark-food.jpg);
+    background-image: url(./images/dark-food.jpg);
 }
 
 .food6 {
     margin: 10px;
     background-size: cover;
     background-position: center;
-    background-image: url(./food/veggies-food.jpg);
+    background-image: url(./images/veggies-food.jpg);
 }
 
 .grad1 {
     margin: 10px;
     background-size: cover;
     background-position: center;
-    background-image: url(./grads/images.jpg);
+    background-image: url(./images/images.jpg);
 }
 
 .grad2 {
@@ -476,7 +476,7 @@
 .option6-1:hover {
     background-size: cover;
     background-position: center;
-    background-image: url(./fears/height-fears.jpg);
+    background-image: url(./images/height-fears.jpg);
 }
 
 .fear2 {
@@ -489,7 +489,7 @@
 .option6-2:hover {
     background-size: cover;
     background-position: center;
-    background-image: url(./fears/lonely-fears.jpg);
+    background-image: url(./images/lonely-fears.jpg);
 }
 
 .fear3 {
@@ -502,7 +502,7 @@
 .option6-3:hover {
     background-size: cover;
     background-position: center;
-    background-image: url(./fears/gathering-fear.jpg);
+    background-image: url(./images/gathering-fear.jpg);
 }
 
 .fear4 {
@@ -515,7 +515,7 @@
 .option6-4:hover {
     background-size: cover;
     background-position: center;
-    background-image: url(./fears/nofears.jpg);
+    background-image: url(./images/nofears.jpg);
 }
 
 .fear5 {
@@ -528,7 +528,7 @@
 .option6-5:hover {
     background-size: cover;
     background-position: center;
-    background-image: url(./fears/truth-fears.jpg);
+    background-image: url(./images/truth-fears.jpg);
 }
 
 .fear6 {
@@ -541,7 +541,7 @@
 .option6-6:hover {
     background-size: cover;
     background-position: center;
-    background-image: url(./fears/water-fears.jpg);
+    background-image: url(./images/water-fears.jpg);
 }
 
 .option6-1:hover .fear1,
@@ -563,7 +563,7 @@
 .option7-1:hover {
     background-size: cover;
     background-position: center;
-    background-image: url(./quals/strength-qual.jpg);
+    background-image: url(./images/strength-qual.jpg);
 }
 
 .qual2 {
@@ -576,7 +576,7 @@
 .option7-2:hover {
     background-size: cover;
     background-position: center;
-    background-image: url(./quals/mani-qual.png);
+    background-image: url(./images/mani-qual.png);
 }
 
 .qual3 {
@@ -589,7 +589,7 @@
 .option7-3:hover {
     background-size: cover;
     background-position: center;
-    background-image: url(./quals/free-qual.png);
+    background-image: url(./images/free-qual.png);
 }
 
 .qual4 {
@@ -602,7 +602,7 @@
 .option7-4:hover {
     background-size: cover;
     background-position: center;
-    background-image: url(./quals/humour-qual.png);
+    background-image: url(./images/humour-qual.png);
 }
 
 .qual5 {
@@ -615,7 +615,7 @@
 .option7-5:hover {
     background-size: cover;
     background-position: center;
-    background-image: url(./quals/work-qual.jpg);
+    background-image: url(./images/work-qual.jpg);
 }
 
 .qual6 {
@@ -628,7 +628,7 @@
 .option7-6:hover {
     background-size: cover;
     background-position: center;
-    background-image: url(./quals/loyal-qual.png);
+    background-image: url(./images/loyal-qual.png);
 }
 
 .option7-1:hover .qual1,
