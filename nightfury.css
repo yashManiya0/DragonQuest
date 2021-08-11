@@ -62,7 +62,7 @@ body {
     background-size: cover;
     height: 400px;
     width: 450px;
-    background-image: url(./dragons/nightfury/nightfury1.jpg);
+    background-image: url(./images/nightfury1.jpg);
 }
 
 #img2 {
@@ -70,7 +70,7 @@ body {
     background-size: cover;
     height: 400px;
     width: 400px;
-    background-image: url(./dragons/nightfury/nightfury2.jpg);
+    background-image: url(./images/nightfury2.jpg);
 }
 
 #img3 {
@@ -78,7 +78,7 @@ body {
     background-size: cover;
     height: 400px;
     width: 450px;
-    background-image: url(./dragons/nightfury/nightfury3.jpg);
+    background-image: url(./images/nightfury3.jpg);
 }
 
 .btn {
