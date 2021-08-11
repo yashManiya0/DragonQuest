@@ -58,7 +58,7 @@ body {
     background-size: cover;
     height: 400px;
     width: 500px;
-    background-image: url(./dragons/fireworm/fireworm2.jpg);
+    background-image: url(./images/fireworm2.jpg);
 }
 
 #img2 {
@@ -66,7 +66,7 @@ body {
     background-size: cover;
     height: 400px;
     width: 300px;
-    background-image: url(./dragons/fireworm/fireworm1.jpg);
+    background-image: url(./images/fireworm1.jpg);
 }
 
 #img3 {
@@ -74,7 +74,7 @@ body {
     background-size: cover;
     height: 400px;
     width: 500px;
-    background-image: url(./dragons/fireworm/fireworm3.jpg);
+    background-image: url(./images/fireworm3.jpg);
 }
 
 .btn {
