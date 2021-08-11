@@ -59,7 +59,7 @@ body {
     background-size: cover;
     height: 400px;
     width: 400px;
-    background-image: url(./dragons/deathgripper/deathgripper3.jpg);
+    background-image: url(./images/deathgripper3.jpg);
 }
 
 #img3 {
@@ -67,7 +67,7 @@ body {
     background-size: cover;
     height: 400px;
     width: 750px;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 200, 200, 0.1)), url(./dragons/deathgripper/deathgripper1.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 200, 200, 0.1)), url(./images/deathgripper1.jpg);
 }
 
 .btn {
